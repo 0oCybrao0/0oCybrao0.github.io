@@ -10,13 +10,13 @@ function updateText() {
         document.getElementById("text").innerHTML += text.charAt(i);
         i++;
         if(i == text.length){
-            setTimeout(updateText, 800);
+            setTimeout(updateText, 600);
         }
         else if(i >= text.length - 3){
-            setTimeout(updateText, 400);
+            setTimeout(updateText, 300);
         }
         else{
-            setTimeout(updateText, 100);
+            setTimeout(updateText, 80);
         }
     }
     else{
@@ -25,4 +25,4 @@ function updateText() {
         setTimeout(updateText, 100);
     }
 }
-window.addEventListener("load", updateText);
+window.addEventListener("load", updateText); 

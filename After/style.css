@@ -1,12 +1,15 @@
 .top {
     background-color: #ffffff;
-    height: 100px;
     width: 100%;
-    /* position: fixed; */
+    height: 90px;
     display: grid;
-    align-self: center;
     justify-content: center;
-    align-content: center;
+    align-content: stretch;
+}
+
+.title{
+    width: auto;
+    height: 100%;
 }
 
 .middle {
@@ -29,6 +32,12 @@
     display: inline;
     background-color: #ffffff;
 }
+
+.moo-pic{
+    width: 200px;
+    height: auto;
+}
+
 
 .refresh {
     display: grid;
