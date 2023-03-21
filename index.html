@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<meta name="theme-color" content="#000000">
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="sound.js"></script>
+    <script src="funcs.js"></script>
     <meta charset="UTF-8">
     <title>迷點等待網站</title>
 </head>
 
 <body>
     <div class="top">
-        <img midian src="top.jpeg">
+        <img midian alt="" src="title.jpeg">
     </div>
     <div class="middle">
         <div class="waiting">
-            <p>正在等待牛乳運送...</p>
+            <p id="text"></p>
         </div>
         <div class="moo">
             <audio id="moo-sound" src="moo-sound.mp3"></audio>
-            <img midian src="moo.png" onclick="play()">
+            <img midian alt="" src="moo.png" onclick="play()">
         </div>
     </div>
     <div class="refresh">
